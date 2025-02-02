@@ -3,8 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  position: relative;
+  z-index: 1; 
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,6 +14,7 @@
 }
 
 .App-header {
+  position: relative;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -25,7 +26,15 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: hsl(318, 100%, 56%);
+}
+
+.Record-Arm {
+  position: absolute;
+  top: 180px; /* Adjust to align correctly */
+  left: 1080px; /* Adjust to place over the logo */
+  z-index: 2; /* Higher than the logo to overlap */
+  transform-origin: top center;
 }
 
 @keyframes App-logo-spin {
