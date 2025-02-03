@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  width: 1920px;
+  height: 1080px;
 }
 
 .App-logo {
@@ -25,15 +28,16 @@
   color: white;
 }
 
-.App-link {
-  color: hsl(318, 100%, 56%);
+.PenisMunch {
+  left: 0px;
+  top: 20px;
 }
 
 .Record-Arm {
   position: absolute;
-  top: 180px; /* Adjust to align correctly */
-  left: 1080px; /* Adjust to place over the logo */
-  z-index: 2; /* Higher than the logo to overlap */
+  top: 180px;
+  left: 1080px;
+  z-index: 2; 
   transform-origin: top center;
 }
 
